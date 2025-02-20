@@ -9,14 +9,14 @@ import os
 
 # Set credentials for the EMBEDDING model (text-embedding-ada-002)
 EMBEDDING_MODEL_NAME = "ADA"  # Ensure this matches your deployment name
-EMBEDDING_API_KEY = "8229f1a35942488481fce09e030427c0"  # Replace with your actual API key for embeddings
-EMBEDDING_ENDPOINT = "https://c27c3f15-3cb4-479b-876f-48d4a417b03b.openai.azure.com"
+EMBEDDING_API_KEY = ""  # Replace with your actual API key for embeddings
+EMBEDDING_ENDPOINT = ""
 EMBEDDING_API_VERSION = "2024-02-01"
 
 # Set credentials for the CHAT model (GPT-4o)
 CHAT_MODEL_NAME = "gpt-4o"  # Ensure this matches your deployment name
-CHAT_API_KEY = "c698e76d02f1499094d3d97b0d592543"  # Replace with your actual API key for chat
-CHAT_ENDPOINT = "https://jllazureopenaigpt42.openai.azure.com/"
+CHAT_API_KEY = ""  # Replace with your actual API key for chat
+CHAT_ENDPOINT = ""
 CHAT_API_VERSION = "2024-02-01"
 
 # Load Azure OpenAI Embeddings (for document search)
