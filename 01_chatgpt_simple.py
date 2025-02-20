@@ -3,8 +3,8 @@ import gradio
 import streamlit as st
 
 # Azure OpenAI Configuration
-AZURE_OPENAI_ENDPOINT = "https://jllazureopenaigpt42.openai.azure.com/"  # Replace with your Azure OpenAI endpoint
-AZURE_OPENAI_API_KEY = "c698e76d02f1499094d3d97b0d592543"  # Replace with your API key
+AZURE_OPENAI_ENDPOINT = ""  # Replace with your Azure OpenAI endpoint
+AZURE_OPENAI_API_KEY = ""  # Replace with your API key
 AZURE_DEPLOYMENT_NAME = "gpt-4o"  # Replace with your deployed model name
 
 # Set up the OpenAI API client with Azure-specific configurations

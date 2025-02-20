@@ -12,14 +12,14 @@ import streamlit as st
 st.title("GSheet Q&A Chatbot")
 # Set credentials for the EMBEDDING model (text-embedding-ada-002)
 EMBEDDING_MODEL_NAME = "TES"  # Ensure this matches your deployment name
-EMBEDDING_API_KEY = "c698e76d02f1499094d3d97b0d592543"  # Replace with your actual API key for embeddings
-EMBEDDING_ENDPOINT = "https://jllazureopenaigpt42.openai.azure.com/"
+EMBEDDING_API_KEY = ""  # Replace with your actual API key for embeddings
+EMBEDDING_ENDPOINT = ""
 EMBEDDING_API_VERSION = "2024-02-01"
 
 # Set credentials for the CHAT model (GPT-4o)
 CHAT_MODEL_NAME = "gpt-4"  # Ensure this matches your deployment name
-CHAT_API_KEY = "c698e76d02f1499094d3d97b0d592543"  # Replace with your actual API key for chat
-CHAT_ENDPOINT = "https://jllazureopenaigpt42.openai.azure.com/"
+CHAT_API_KEY = ""  # Replace with your actual API key for chat
+CHAT_ENDPOINT = ""
 CHAT_API_VERSION = "2024-02-01"
 
 
